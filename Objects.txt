@@ -1,0 +1,29 @@
+Objects are different than primitive datatypes(number, string, boolean, etc.)
+Primitive data types contain one value but Objects can hold many values in form of " Key : value " pair. 
+
+Example 1:
+
+const school = {
+name : "DAV School",
+location : "Muzaffarpur"
+}
+
+Here, "name" and "location" are all "keys" and "DAV School" and "Muzaffarpur" are values of these keys respectively. Each of these keys is referred to as properties of the object. 
+
+Example 2:
+
+const school = {}
+school.name = "DAV School"
+school.location = "Muzaffarpur"
+
+Here, first we have created empty object and then added 2 properties.
+
+Example 3:
+
+const school = new Object()
+school.name = "DAV School"
+school.location = "Muzaffarpur"
+
+Here, first we have created new JavaScript object using "new" keyword and then added 2 properties.
+
+
